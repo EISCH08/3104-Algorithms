@@ -5,7 +5,7 @@ def Function(n):
 	for i in range(3,n):
 		val = (A[i-1]*A[i-2])+A[i-3]
 		A.append(val)
-	return A
+	return A 
 
 
 def Recursion(n):
